@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.22935">
-    <testcase classname="User registration and message compose functionality in English language" name="Verify that the user is able to compose and send the message" time="32.22935">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="69.441234">
+    <testcase classname="User registration and message compose functionality in English language" name="Verify that the user is able to complete the registration after filling and submitting the form" time="29.385424">
+        <system-out><![CDATA[Given user should be on the home page.......................................passed
+When user clicks on the Signup! link........................................passed
+Then Registration page should display.......................................passed
+Then enter all madatory info "Follow Course", "rewewre","qweq", "asasacT@testgg.com","TestSDETRam_c", "Test_c", "Test_c".passed
+And click on the Submit button..............................................passed
+Then Signup confirmation page is displaying with user info "rewewre","qweq".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User registration and message compose functionality in English language" name="Verify that the user is able to compose and send the message" time="40.05581">
         <system-out><![CDATA[Given Login with valid name.................................................passed
 When click on the user icon.................................................passed
 And click on the link "Inbox"...............................................passed

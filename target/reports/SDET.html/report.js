@@ -87,6 +87,236 @@ formatter.feature({
   ]
 });
 formatter.scenarioOutline({
+  "line": 23,
+  "name": "Verify that the user is able to complete the registration after filling and submitting the form",
+  "description": "",
+  "id": "user-registration-and-message-compose-functionality-in-english-language;verify-that-the-user-is-able-to-complete-the-registration-after-filling-and-submitting-the-form",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 22,
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "line": 24,
+  "name": "user should be on the home page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 25,
+  "name": "user clicks on the Signup! link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 26,
+  "name": "Registration page should display",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 27,
+  "name": "enter all madatory info \"\u003cFollow Course\u003e\", \"\u003cfirstname\u003e\",\"\u003clastname\u003e\", \"\u003cemail\u003e\",\"\u003cusername\u003e\", \"\u003cpassnumber\u003e\", \"\u003cconf_pass\u003e\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 28,
+  "name": "click on the Submit button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "Signup confirmation page is displaying with user info \"\u003cfirstname\u003e\",\"\u003clastname\u003e\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 31,
+  "name": "",
+  "description": "",
+  "id": "user-registration-and-message-compose-functionality-in-english-language;verify-that-the-user-is-able-to-complete-the-registration-after-filling-and-submitting-the-form;",
+  "rows": [
+    {
+      "cells": [
+        "Follow Course",
+        "firstname",
+        "lastname",
+        "email",
+        "username",
+        "passnumber",
+        "conf_pass"
+      ],
+      "line": 32,
+      "id": "user-registration-and-message-compose-functionality-in-english-language;verify-that-the-user-is-able-to-complete-the-registration-after-filling-and-submitting-the-form;;1"
+    },
+    {
+      "cells": [
+        "Follow Course",
+        "rewewre",
+        "qweq",
+        "asasacT@testgg.com",
+        "TestSDETRam_c",
+        "Test_c",
+        "Test_c"
+      ],
+      "line": 33,
+      "id": "user-registration-and-message-compose-functionality-in-english-language;verify-that-the-user-is-able-to-complete-the-registration-after-filling-and-submitting-the-form;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 3836556900,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 33,
+  "name": "Verify that the user is able to complete the registration after filling and submitting the form",
+  "description": "",
+  "id": "user-registration-and-message-compose-functionality-in-english-language;verify-that-the-user-is-able-to-complete-the-registration-after-filling-and-submitting-the-form;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 19,
+      "name": "@tag"
+    },
+    {
+      "line": 22,
+      "name": "@tag1"
+    }
+  ]
+});
+formatter.step({
+  "line": 24,
+  "name": "user should be on the home page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 25,
+  "name": "user clicks on the Signup! link",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 26,
+  "name": "Registration page should display",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 27,
+  "name": "enter all madatory info \"Follow Course\", \"rewewre\",\"qweq\", \"asasacT@testgg.com\",\"TestSDETRam_c\", \"Test_c\", \"Test_c\"",
+  "matchedColumns": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 28,
+  "name": "click on the Submit button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 29,
+  "name": "Signup confirmation page is displaying with user info \"rewewre\",\"qweq\"",
+  "matchedColumns": [
+    1,
+    2
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinition.user_should_be_on_the_home_page()"
+});
+formatter.result({
+  "duration": 6371286500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefinition.user_clicks_on_the_Signup_link()"
+});
+formatter.result({
+  "duration": 4372964500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefinition.registration_page_should_display()"
+});
+formatter.result({
+  "duration": 3100669000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Follow Course",
+      "offset": 25
+    },
+    {
+      "val": "rewewre",
+      "offset": 42
+    },
+    {
+      "val": "qweq",
+      "offset": 52
+    },
+    {
+      "val": "asasacT@testgg.com",
+      "offset": 60
+    },
+    {
+      "val": "TestSDETRam_c",
+      "offset": 81
+    },
+    {
+      "val": "Test_c",
+      "offset": 98
+    },
+    {
+      "val": "Test_c",
+      "offset": 108
+    }
+  ],
+  "location": "stepdefinition.enter_all_madatory_info(String,String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 1052899400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "stepdefinition.click_on_the_Submit_button()"
+});
+formatter.result({
+  "duration": 6627019400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "rewewre",
+      "offset": 55
+    },
+    {
+      "val": "qweq",
+      "offset": 65
+    }
+  ],
+  "location": "stepdefinition.signup_confirmation_page_is_displaying_with_user_info(String,String)"
+});
+formatter.result({
+  "duration": 3030168000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 993860200,
+  "status": "passed"
+});
+formatter.scenarioOutline({
   "line": 36,
   "name": "Verify that the user is able to compose and send the message",
   "description": "",
@@ -97,10 +327,6 @@ formatter.scenarioOutline({
     {
       "line": 35,
       "name": "@tag2"
-    },
-    {
-      "line": 35,
-      "name": "@Regression"
     }
   ]
 });
@@ -169,7 +395,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3968947001,
+  "duration": 1926266700,
   "status": "passed"
 });
 formatter.scenario({
@@ -187,10 +413,6 @@ formatter.scenario({
     {
       "line": 35,
       "name": "@tag2"
-    },
-    {
-      "line": 35,
-      "name": "@Regression"
     }
   ]
 });
@@ -241,14 +463,14 @@ formatter.match({
   "location": "stepdefinition.Login_with_valid_name()"
 });
 formatter.result({
-  "duration": 8925993300,
+  "duration": 18688190600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinition.click_on_the_user_icon()"
 });
 formatter.result({
-  "duration": 3278466800,
+  "duration": 3096123900,
   "status": "passed"
 });
 formatter.match({
@@ -261,14 +483,14 @@ formatter.match({
   "location": "stepdefinition.click_on_the_link(String)"
 });
 formatter.result({
-  "duration": 3945569600,
+  "duration": 3501268900,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinition.click_on_the_compose()"
 });
 formatter.result({
-  "duration": 4262615500,
+  "duration": 4363420400,
   "status": "passed"
 });
 formatter.match({
@@ -289,25 +511,25 @@ formatter.match({
   "location": "stepdefinition.enter_Send_To_Subject_Message(String,String,String)"
 });
 formatter.result({
-  "duration": 1739074300,
+  "duration": 1805132600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinition.click_on_the_Send_Message()"
 });
 formatter.result({
-  "duration": 4903624801,
+  "duration": 5476184400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinition.message_should_be_send_successfully()"
 });
 formatter.result({
-  "duration": 59310100,
+  "duration": 44224900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1145748599,
+  "duration": 1154997600,
   "status": "passed"
 });
 });
